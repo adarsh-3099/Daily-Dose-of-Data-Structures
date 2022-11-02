@@ -13,9 +13,11 @@ class Solution:
        T(root)
        return self.li
 	
-"""Iterative
-	→ Take a stack and store node of tree.
-	→ Pop the top element and print it then store right child and left child."""
+"""
+Iterative
+→ Take a stack and store node of tree.
+→ Pop the top element and print it then store right child and left child.
+"""
 class Solution:
    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
       
